@@ -288,4 +288,4 @@ with tab2:
             if success:
                 st.success(msg)
                 st.download_button("📥 PDF 다운로드", buf.getvalue(), f"{target_student}_리포트.pdf", "application/pdf")
-            else: st.error(msg)sg)
+            else: st.error(msg)
